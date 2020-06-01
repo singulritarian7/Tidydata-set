@@ -1,6 +1,9 @@
 library(dplyr)
 setwd("C:/Users/pruebas/Documents/TIDY_DATASET")
 
+# I download the file straightforard from the instructions asingment to my computer 
+# and also unzip it, so i didn´t used download.file and unzip functions.
+
 # load train data
 X_train <- read.table("UCI HAR Dataset/train/X_train.txt")
 Y_train <- read.table("UCI HAR Dataset/train/Y_train.txt")
